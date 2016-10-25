@@ -2,5 +2,23 @@
   "name": "npm-dry-run",
   "version": "0.0.0",
   "description": "",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=4"
+  },
+  "bin": {
+    "dry-run": "lib/index.js"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctesniere/npm-dry-run.git"
+  },
+  "homepage": "https://github.com/ctesniere/npm-dry-run",
+  "author": {
+    "name": "Cedric TESNIERE"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.4"
+  }
 }
